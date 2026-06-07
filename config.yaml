@@ -1,0 +1,33 @@
+platforms:
+  naver:
+    enabled: true
+    base_url: "https://search.shopping.naver.com/search/all"
+    default_sort: "review"        # review | price_asc | price_desc | rank
+    max_pages: 3
+
+  coupang:
+    enabled: true
+    base_url: "https://www.coupang.com/np/search"
+    # coupang needs selenium - requests gets blocked too easily
+    # TODO: figure out if there's a lighter approach
+    use_selenium: true
+    max_pages: 2
+
+  eleventh:
+    enabled: false   # haven't implemented this yet
+    base_url: "https://search.11st.co.kr/Search.tmall"
+
+  gmarket:
+    enabled: false   # same, next step
+    base_url: "https://browse.gmarket.co.kr/search"
+
+agent:
+  max_steps: 10
+  # how many tokens to use per Codex call - keeping it small to save credits
+  codex_max_tokens: 600
+  retry_on_error: true
+  max_retries: 2
+
+report:
+  format: ["markdown", "csv"]
+  include_charts: true

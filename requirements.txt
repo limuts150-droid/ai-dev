@@ -1,0 +1,15 @@
+openai>=1.0.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.18.0
+webdriver-manager>=4.0.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+rich>=13.0.0       # pretty terminal output
+tqdm>=4.65.0       # progress bars when scraping
+
+# dev / notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0

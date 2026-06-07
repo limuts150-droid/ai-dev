@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <b>An agentic market research assistant for Korean e-commerce — powered by GPT Codex.<br/>
+  <b>An agentic market research assistant for Korean e-commerce — With GPT Codex or Other Agentic AI.<br/>
   Built by a student preparing to launch a product, to make competitive analysis actually manageable.</b>
 </p>
 
